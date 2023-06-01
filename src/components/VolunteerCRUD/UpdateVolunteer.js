@@ -12,9 +12,6 @@ export default function UpdateVolunteer({
   const [updatedPhone, setupdatedPhone] = useState("");
   const [updatedEmail, setupdatedEmail] = useState("");
 
-  /*NOTE set a state for show to handle the opening and closing of the modal and it is a boolean.
-    Please reference the following url for more info https://react-bootstrap.github.io/components/modal/ */
-
   const [show, setShow] = useState(false);
 
   function handleClose() {
@@ -24,10 +21,6 @@ export default function UpdateVolunteer({
   function handleShow() {
     setShow(true);
   }
-
-  /*NOTE fetches a specific object from the API by targeting the id and uses the PUT method to update it. It will take in the
-    values from the form below. When the array is updated, it will retrieve the new array and trigger the handleClose function
-    that will close the modal*/
 
   function updateVolunteer(volunteerID) {
     let id = volunteerID;

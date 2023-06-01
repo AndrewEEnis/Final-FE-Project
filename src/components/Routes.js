@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Switch, Route, Redirect } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 import VolunteerList from "./VolunteerList";
 import Home from "./Home";
 import Hounds from "./Hounds";
@@ -25,7 +25,6 @@ export default class Routes extends Component {
           render={() => <Hounds dogs={this.props.dogs} />}
         />
         <Route exact path="/dogs/:name" render={getHound} />
-        <Route exact path="/volunteer"></Route>
         <Route
           exact
           path="/volunteer"

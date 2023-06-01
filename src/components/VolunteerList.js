@@ -4,7 +4,7 @@ import NewVolunteerForm from "./VolunteerCRUD/NewVolunteerForm";
 import ListOfVolunteers from "./VolunteerCRUD/ListOfVolunteers";
 import styles from "./volunteerList.module.css";
 
-export default function ReadingList() {
+export default function VolunteerList() {
   const VOLUNTEERAPI = "https://6476be759233e82dd53a51b8.mockapi.io/volunteers";
 
   const [volunteers, setVolunteers] = useState([]);
