@@ -1,4 +1,3 @@
-/*NOTE Creates a universal font, background color and text color for the component */
 .volunteerList {
     font-family: Century Gothic;
     height: 100vh;
@@ -22,8 +21,6 @@
     margin: 0 auto;
 }
 
-
-/*NOTE - gives the table a different background color and creates a margin to keep some space between the table and the form */
 .table {
     border: solid white;
     margin-top: 2rem;

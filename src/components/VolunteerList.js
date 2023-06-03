@@ -27,6 +27,8 @@ export default function VolunteerList() {
         getVolunteers={getVolunteers}
         styles={styles}
       />
+      <br></br>
+      <br></br>
       <ListOfVolunteers
         volunteersAPI={VOLUNTEERAPI}
         volunteers={volunteers}
